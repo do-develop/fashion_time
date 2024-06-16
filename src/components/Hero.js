@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-  <section className='h-[800px] bg-hero bg-no-repeat bg-cover bg-center py-9 mb-2'>
+  <section className='h-[800px] bg-hero bg-no-repeat bg-cover bg-center mb-2'>
     <div className='container mx-auto flex justify-around h-full'>
       {/* TEXT */}
       <div className='flex flex-col justify-center'>
@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
       {/* IMAGE */}                      
       <div className='hidden lg:block'>
-        <img src={HeroImage} alt='hero' className='h-[767px]' />
+        <img src={HeroImage} alt='hero' className='h-full' />
       </div>
     </div>
 
